@@ -1,6 +1,6 @@
 variable "region" {
   description = "AWS region"
-  default     = "us-west-1"
+  default     = "us-east-2"
 }
 
 variable "instance_type" {
@@ -13,3 +13,7 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "subnet_id" {
+  description = "Target subnet"
+  default     = "subnet-0fff457b375c9e61f"
+}
