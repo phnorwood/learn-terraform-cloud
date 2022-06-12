@@ -15,5 +15,5 @@ variable "instance_name" {
 
 variable "subnet_id" {
   description = "Target subnet"
-  default     = "subnet-0fff457b375c9e61f"
+  default     = ""
 }
