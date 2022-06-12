@@ -8,7 +8,7 @@ resource "aws_instance" "ubuntu" {
   subnet_id     = var.aws_subnet_id
 
   tags = {
-    Name = "TFC EC2 Demov (Remote CLI)"
+    Name = "TFC EC2 Demo (Remote VCS)"
     Owner = "Patrick H. Norwood"
     CostCenter = "001"
   }
