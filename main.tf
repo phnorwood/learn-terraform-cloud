@@ -6,9 +6,7 @@
       name = "learn-terraform-cloud"
     }
   }
-
-}
-*/
+}*/
 provider "aws" {
   region = var.region
 }
