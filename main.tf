@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
 
   cloud {
     organization = "phnorwood-dot-com"
@@ -8,7 +8,7 @@ terraform {
   }
 
 }
-
+*/
 provider "aws" {
   region = var.region
 }
