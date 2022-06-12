@@ -1,12 +1,12 @@
 terraform {
-/*
+
   cloud {
     organization = "phnorwood-dot-com"
     workspaces {
-      name = "cli-learn-terraform-cloud"
+      name = "learn-terraform-cloud"
     }
   }
-*/
+
 }
 
 provider "aws" {
