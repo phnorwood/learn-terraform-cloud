@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "instance_name" {
   description = "EC2 instance name"
-  default     = "Provisioned by Terraform"
+  default     = "Provisioned by Terraform CLI Local"
 }
 
 variable "subnet_id" {
