@@ -1,12 +1,3 @@
-/*terraform {
-
-  cloud {
-    organization = "phnorwood-dot-com"
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
-}*/
 provider "aws" {
   region = var.region
 }
@@ -33,6 +24,8 @@ resource "aws_instance" "ubuntu" {
   subnet_id     = var.subnet_id
 
   tags = {
-    Name = var.instance_name
+    Name = "TFC EC2 Demo"
+    Owner = "PHN"
+    CostCenter = "001"
   }
 }

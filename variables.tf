@@ -8,11 +8,6 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-variable "instance_name" {
-  description = "EC2 instance name"
-  default     = "Provisioned by Terraform VCS Intregration"
-}
-
 variable "subnet_id" {
   description = "Target subnet"
   default     = "subnet-0584a7ec0d96fcd2b"
