@@ -1,5 +1,5 @@
 provider "aws" {
-  region = var.region
+  region = var.aws_region
 }
 
 resource "aws_instance" "ubuntu" {
@@ -8,7 +8,7 @@ resource "aws_instance" "ubuntu" {
   subnet_id     = var.aws_subnet_id
 
   tags = {
-    Name = "TFC EC2 Demo"
+    Name = "TFC EC2 Demov (Remote CLI)"
     Owner = "Patrick H. Norwood"
     CostCenter = "001"
   }
