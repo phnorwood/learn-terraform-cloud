@@ -1,3 +1,14 @@
+terraform {
+/*
+  cloud {
+    organization = "phnorwood-dot-com"
+    workspaces {
+      name = "cli-learn-terraform-cloud"
+    }
+  }
+*/
+}
+
 provider "aws" {
   region = var.region
 }
@@ -21,7 +32,7 @@ data "aws_ami" "ubuntu" {
 resource "aws_instance" "ubuntu" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
-  subnet_id = var.subnet_id
+  subnet_id     = var.subnet_id
 
   tags = {
     Name = var.instance_name
