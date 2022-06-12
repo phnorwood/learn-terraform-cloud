@@ -3,13 +3,13 @@ provider "aws" {
 }
 
 resource "aws_instance" "ubuntu" {
-  ami           = var.ami_id
-  instance_type = var.instance_type
-  subnet_id     = var.subnet_id
+  ami           = var.aws_ami_id
+  instance_type = var.aws_instance_type
+  subnet_id     = var.aws_subnet_id
 
   tags = {
     Name = "TFC EC2 Demo"
-    Owner = "PHN"
+    Owner = "Patrick H. Norwood"
     CostCenter = "001"
   }
 }
