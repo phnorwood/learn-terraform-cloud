@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "instance_name" {
   description = "EC2 instance name"
-  default     = "Provisioned by Terraform CLI Remote"
+  default     = "Provisioned by Terraform VCS Intregration"
 }
 
 variable "subnet_id" {
