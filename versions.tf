@@ -1,12 +1,12 @@
 terraform {
 
-  /*  cloud {
+  cloud {
    organization = "phnorwood-dot-com"
 
    workspaces {
      name = "tfc-integration-demo"
    }
-  }*/
+  }
 
   required_providers {
     aws = {
