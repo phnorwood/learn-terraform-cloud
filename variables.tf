@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "aws_ami_id" {
   description = "AWS EC2 AMI"
-  default = "ami-0960ab670c8bb45f3"
+  default     = "ami-0960ab670c8bb45f3"
 }
 
 variable "aws_instance_type" {

@@ -1,6 +1,6 @@
-/*terraform {
-  
-  cloud {
+terraform {
+
+  /*  cloud {
    organization = "phnorwood-dot-com"
 
    workspaces {
@@ -11,7 +11,7 @@
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.28.0"
+      version = "4.18.0"
     }
   }
 
