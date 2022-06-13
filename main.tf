@@ -10,7 +10,7 @@ resource "aws_instance" "ubuntu" {
   tags = {
     Name        = "TFC EC2 Demo"
     Owner       = "Patrick H. Norwood"
-    CostCenter  = "001"
-    Provisioned = "Terraform Cloud via CLI"
+    CostCenter  = "003"
+    Provisioned = "Terraform Cloud via VCS (PR)"
   }
 }
