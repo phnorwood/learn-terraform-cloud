@@ -8,9 +8,8 @@ resource "aws_instance" "ubuntu" {
   subnet_id     = var.aws_subnet_id
 
   tags = {
-    Name        = "TFC EC2 Demo"
+    Name        = "HC IaC Demo"
     Owner       = "Patrick H. Norwood"
-    CostCenter  = "003"
-    Provisioned = "Terraform Cloud via VCS (PR)"
+    Provisioned = "Terraform Cloud via CLI"
   }
 }
