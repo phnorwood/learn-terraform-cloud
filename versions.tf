@@ -4,7 +4,7 @@ terraform {
    organization = "phnorwood-dot-com"
 
    workspaces {
-     name = "learn-terraform-cloud"
+     name = "cli-integration-demo"
    }
   }*/
 
