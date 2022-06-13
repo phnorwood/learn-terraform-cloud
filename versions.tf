@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   
   cloud {
    organization = "phnorwood-dot-com"
@@ -6,7 +6,7 @@ terraform {
    workspaces {
      name = "learn-terraform-cloud"
    }
-  }
+  }*/
 
   required_providers {
     aws = {
