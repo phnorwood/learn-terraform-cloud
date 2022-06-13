@@ -10,6 +10,6 @@ resource "aws_instance" "ubuntu" {
   tags = {
     Name        = "HC IaC Demo"
     Owner       = "Patrick H. Norwood"
-    Provisioned = "Terraform Cloud via VSC (GitHub PR)"
+    Provisioned = "Terraform Cloud via CLI"
   }
 }
